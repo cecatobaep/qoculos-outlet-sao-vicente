@@ -4,6 +4,14 @@ Website institucional moderno, altamente responsivo e focado em **alta conversã
 
 ---
 
+## 🌐 Links do Projeto Online
+- **Repositório GitHub:** [https://github.com/cecatobaep/qoculos-outlet-sao-vicente](https://github.com/cecatobaep/qoculos-outlet-sao-vicente)
+- **Deploy no Netlify:** [https://beautiful-daifuku-4cb80d.netlify.app](https://beautiful-daifuku-4cb80d.netlify.app)
+  - *Senha de visualização temporária:* `My-Drop-Site`
+  - *Link para vincular à sua conta Netlify (Claim):* [Vincular Site no Netlify](https://app.netlify.com/drop/beautiful-daifuku-4cb80d#drop_token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE3ODk3NTIwMjEsImV4cCI6MTc4OTc1NTYyMSwiaXNzIjoiTmV0bGlmeSIsInNlc3Npb25faWQiOiIyYWIzMDc5NC02ZjlmLTRjN2UtOTVlNC04NTdjMjg5MWFiMDUifQ.XgjcpfckhWY4gAyal_7x6GZYrbNtJr7_VpHtKvosOUs)
+
+---
+
 ## 📍 Informações Oficiais Integradas
 - **Unidade:** QÓculos Outlet São Vicente
 - **Endereço:** Rua Jacob Emmerich, 380 - Loja 02, Centro, São Vicente - SP, CEP 11310-070
