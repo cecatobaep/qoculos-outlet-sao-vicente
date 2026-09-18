@@ -6,9 +6,9 @@ Website institucional moderno, altamente responsivo e focado em **alta conversã
 
 ## 🌐 Links do Projeto Online
 - **Repositório GitHub:** [https://github.com/cecatobaep/qoculos-outlet-sao-vicente](https://github.com/cecatobaep/qoculos-outlet-sao-vicente)
-- **Deploy no Netlify:** [https://beautiful-daifuku-4cb80d.netlify.app](https://beautiful-daifuku-4cb80d.netlify.app)
+- **Deploy no Netlify:** [https://beamish-sopapillas-8cdc16.netlify.app](https://beamish-sopapillas-8cdc16.netlify.app)
   - *Senha de visualização temporária:* `My-Drop-Site`
-  - *Link para vincular à sua conta Netlify (Claim):* [Vincular Site no Netlify](https://app.netlify.com/drop/beautiful-daifuku-4cb80d#drop_token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE3ODk3NTIwMjEsImV4cCI6MTc4OTc1NTYyMSwiaXNzIjoiTmV0bGlmeSIsInNlc3Npb25faWQiOiIyYWIzMDc5NC02ZjlmLTRjN2UtOTVlNC04NTdjMjg5MWFiMDUifQ.XgjcpfckhWY4gAyal_7x6GZYrbNtJr7_VpHtKvosOUs)
+  - *Link para vincular à sua conta Netlify (Claim):* [Vincular Site no Netlify](https://app.netlify.com/drop/beamish-sopapillas-8cdc16#drop_token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE3ODk3NTI5MTYsImV4cCI6MTc4OTc1NjUxNiwiaXNzIjoiTmV0bGlmeSIsInNlc3Npb25faWQiOiIxNzI3NWY3ZS03NTBiLTQzOGMtYjdkOS1lYWQ0ZWRkZTdmODgifQ.EyJHgz8B9N_25QdNX4s3BXBf_wCoJZ4iPdBmB9l-8cE)
 
 ---
 
