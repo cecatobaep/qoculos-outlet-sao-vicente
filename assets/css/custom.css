@@ -1,14 +1,19 @@
 /* ==========================================================================
    QÓCULOS OUTLET SÃO VICENTE - ESTILOS CUSTOMIZADOS & DESIGN TOKENS
+   Paleta Oficial Extraída da Logo: Teal Turquesa (#00A7B9) & Roxo Outlet (#704797)
    Acessibilidade WCAG AA, Prevenção de CLS e Micro-interações
    ========================================================================== */
 
 :root {
-  --color-primary: #0b1329;       /* Azul noite profundo / Preto sofisticado */
-  --color-primary-light: #162447;
-  --color-accent: #c99738;        /* Dourado ótica premium */
-  --color-accent-hover: #b0822b;
-  --color-accent-light: #fef8eb;
+  --color-primary: #071924;          /* Azul petróleo / Navy escuro com subtom teal */
+  --color-primary-light: #0d2737;
+  --color-teal: #00A7B9;             /* Teal / Turquesa Oficial da Logo */
+  --color-teal-hover: #008f9e;
+  --color-teal-light: #e6f8fa;
+  --color-purple: #704797;           /* Roxo Oficial da palavra OUTLET */
+  --color-purple-hover: #5c377f;
+  --color-purple-light: #f5eefb;
+  
   --color-surface: #ffffff;
   --color-surface-subtle: #f8fafc;
   --color-text-main: #0f172a;
@@ -23,7 +28,8 @@
   --shadow-sm: 0 1px 2px 0 rgb(0 0 0 / 0.05);
   --shadow-md: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);
   --shadow-xl: 0 20px 25px -5px rgb(0 0 0 / 0.1), 0 8px 10px -6px rgb(0 0 0 / 0.1);
-  --shadow-glow: 0 0 25px rgba(201, 151, 56, 0.25);
+  --shadow-glow: 0 0 25px rgba(0, 167, 185, 0.35);
+  --shadow-purple-glow: 0 0 25px rgba(112, 71, 151, 0.3);
 }
 
 /* Rolagem suave */
@@ -40,7 +46,7 @@ button:focus-visible,
 input:focus-visible,
 select:focus-visible,
 textarea:focus-visible {
-  outline: 2px solid var(--color-accent);
+  outline: 2px solid var(--color-teal);
   outline-offset: 3px;
 }
 
@@ -75,9 +81,9 @@ img {
 
 /* Efeito Glassmorphism Sofisticado */
 .glass-nav {
-  background: rgba(11, 19, 41, 0.92);
-  backdrop-filter: blur(12px);
-  -webkit-backdrop-filter: blur(12px);
+  background: rgba(7, 25, 36, 0.94);
+  backdrop-filter: blur(14px);
+  -webkit-backdrop-filter: blur(14px);
 }
 
 .glass-card {
@@ -86,11 +92,17 @@ img {
   border: 1px solid rgba(226, 232, 240, 0.8);
 }
 
-/* Badge animado com brilho */
+/* Badge Oficial com Gradiente Teal & Purple da Logo */
 .badge-outlet {
-  background: linear-gradient(135deg, #c99738 0%, #dfb35c 100%);
+  background: linear-gradient(135deg, #00A7B9 0%, #704797 100%);
   color: #ffffff;
-  box-shadow: 0 2px 8px rgba(201, 151, 56, 0.35);
+  box-shadow: 0 2px 8px rgba(0, 167, 185, 0.4);
+}
+
+.badge-purple {
+  background-color: #704797;
+  color: #ffffff;
+  box-shadow: 0 2px 8px rgba(112, 71, 151, 0.35);
 }
 
 /* Botão WhatsApp Flutuante Pulsante */
@@ -161,7 +173,7 @@ details[open] summary svg {
 
 /* Modal de Agendamento */
 .modal-backdrop {
-  background-color: rgba(11, 19, 41, 0.7);
+  background-color: rgba(7, 25, 36, 0.75);
   backdrop-filter: blur(6px);
 }
 

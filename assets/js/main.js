@@ -1,6 +1,7 @@
 /**
  * QÓculos Outlet São Vicente - Scripts Principais
  * Manipulação de DOM modular, acessibilidade e conversão WhatsApp
+ * Paleta Oficial: Teal (#00A7B9) e Roxo (#704797)
  */
 
 document.addEventListener('DOMContentLoaded', () => {
@@ -102,17 +103,17 @@ function initCatalog() {
           <span class="absolute top-3 left-3 badge-outlet text-xs font-bold uppercase tracking-wider px-3 py-1 rounded-full shadow-sm">
             ${item.badge}
           </span>
-          <span class="absolute bottom-3 left-3 bg-slate-900/80 backdrop-blur-sm text-white text-[11px] font-medium px-2.5 py-1 rounded-md">
+          <span class="absolute bottom-3 left-3 bg-slate-900/85 backdrop-blur-sm text-white text-[11px] font-medium px-2.5 py-1 rounded-md">
             ${item.tag}
           </span>
         </div>
 
         <div class="p-5 flex-1 flex flex-col justify-between">
           <div>
-            <div class="text-xs font-semibold uppercase tracking-wider text-amber-700 mb-1">
+            <div class="text-xs font-bold uppercase tracking-wider text-[#704797] mb-1">
               ${item.brand}
             </div>
-            <h3 class="font-bold text-slate-900 text-lg group-hover:text-amber-800 transition-colors line-clamp-1">
+            <h3 class="font-bold text-slate-900 text-lg group-hover:text-[#00A7B9] transition-colors line-clamp-1">
               ${item.name}
             </h3>
             <p class="text-xs text-slate-500 mt-2 line-clamp-2 leading-relaxed">
@@ -134,7 +135,7 @@ function initCatalog() {
               target="_blank" 
               rel="noopener noreferrer"
               aria-label="Experimentar ${item.name} na loja via WhatsApp"
-              class="mt-4 w-full inline-flex items-center justify-center gap-2 bg-slate-900 hover:bg-amber-700 text-white font-medium text-xs tracking-wide py-2.5 px-4 rounded-xl transition-all duration-200 group-hover:shadow-md"
+              class="mt-4 w-full inline-flex items-center justify-center gap-2 bg-slate-900 hover:bg-[#00A7B9] text-white font-semibold text-xs tracking-wide py-2.5 px-4 rounded-xl transition-all duration-200 group-hover:shadow-md"
             >
               <i data-lucide="message-circle" class="w-4 h-4 text-emerald-400"></i>
               Experimentar na Loja
@@ -158,13 +159,13 @@ function initCatalog() {
   filterButtons.forEach(btn => {
     btn.addEventListener('click', () => {
       filterButtons.forEach(b => {
-        b.classList.remove('bg-amber-600', 'text-white', 'shadow-md');
+        b.classList.remove('bg-[#00A7B9]', 'text-white', 'shadow-md');
         b.classList.add('bg-white', 'text-slate-700', 'hover:bg-slate-100');
         b.setAttribute('aria-pressed', 'false');
       });
 
       btn.classList.remove('bg-white', 'text-slate-700', 'hover:bg-slate-100');
-      btn.classList.add('bg-amber-600', 'text-white', 'shadow-md');
+      btn.classList.add('bg-[#00A7B9]', 'text-white', 'shadow-md');
       btn.setAttribute('aria-pressed', 'true');
 
       const category = btn.getAttribute('data-category');
