@@ -1,0 +1,19 @@
+{
+  "name": "qoculos-outlet-sao-vicente",
+  "version": "1.0.0",
+  "description": "Landing Page / Website Institucional Moderno de Alta Conversão para QÓculos Outlet São Vicente",
+  "scripts": {
+    "dev": "npx serve . -p 3000",
+    "start": "npx serve . -p 3000"
+  },
+  "keywords": [
+    "landing-page",
+    "otica",
+    "sao-vicente",
+    "qoculos",
+    "tailwind",
+    "seo"
+  ],
+  "author": "Desenvolvedor Frontend Sênior & UI/UX Specialist",
+  "license": "MIT"
+}
